@@ -1,3 +1,3 @@
 # **Sift**
 
-A simple goal-tracking application that will provide you with the necessary tools needed to achieve seemingly mountainous goals.
+A simple goal-tracking application that provides you with the tools needed to conquer your greatest goals.
