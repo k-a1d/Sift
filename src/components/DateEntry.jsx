@@ -1,11 +1,10 @@
 import React, { Component } from "react";
 import "../assets/styles/styles.css";
 
-class GoalEntry extends Component {
+class DateEntry extends Component {
   handleSubmit = (e) => {
+    alert("Form was submitted");
     e.preventDefault(); //Prevent default behaviour on form submit - refresh page
-    alert("Goal submitted");
-    this.props.submitGoal(document.getElementById("goal").value);
   };
 
   render() {
@@ -22,7 +21,7 @@ class GoalEntry extends Component {
           >
             <div className="mb-4">
               <label htmlFor="goal" className="text-2xl font-bold text-black">
-                Enter a goal:
+                When would you like to achieve this goal by?
               </label>
             </div>
             <div className="mb-4">
@@ -45,4 +44,4 @@ class GoalEntry extends Component {
   }
 }
 
-export default GoalEntry;
+export default DateEntry;
