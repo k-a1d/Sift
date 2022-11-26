@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import PageHandler from "./components/PageHandler";
-import "./App.css";
 import "./assets/styles/styles.css"
 
 function App() {

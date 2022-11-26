@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "../assets/styles/styles.css";
 
 class GoalEntry extends Component {
   handleSubmit = (e) => {
@@ -20,7 +19,7 @@ class GoalEntry extends Component {
         >
           <div className="mb-4">
             <label htmlFor="goal" className="text-2xl font-bold text-black">
-              Enter a goal:
+              Let's define a goal
             </label>
           </div>
           <div className="mb-4">

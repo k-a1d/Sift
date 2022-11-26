@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "../assets/styles/styles.css";
 
 class DateEntry extends Component {
   handleSubmit = (e) => {
